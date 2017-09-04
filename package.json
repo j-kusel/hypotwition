@@ -1,0 +1,27 @@
+{
+  "name": "hypotwition",
+  "version": "1.0.0",
+  "description": "it breathes, it heats, it eats. it shits n fuccs",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ultraturtle0/hypotwition.git"
+  },
+  "keywords": [
+    "twitter",
+    "altwoke"
+  ],
+  "author": "Jordan Kusel",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/ultraturtle0/hypotwition/issues"
+  },
+  "homepage": "https://github.com/ultraturtle0/hypotwition#readme",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
