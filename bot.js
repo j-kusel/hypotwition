@@ -1,5 +1,9 @@
 var twit = require('twit');
-var config = require('./config.js');
+try {
+    var config = require('./config.js');
+} catch(err) {
+    console.log("config.js file not found. copy the following into a config.js file, paste in your Twitter keys, and place in the root directory of the project:\nmodule.exports = {\n\tconsumer_key: '',\n\tconsumer_secret: '', \n\taccess_token: '',\n\taccess_token_secret: ''\n};\n");
+}
 
 var Twitter = new twit(config);
 
